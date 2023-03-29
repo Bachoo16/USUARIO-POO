@@ -29,7 +29,7 @@ eloy = User("Eloy")
 teo = User("Teo")
 edson = User("Edson")
 
-eloy.make_deposit(100).make_deposit(200).hacer_deposito(50).make_withdrawl(45).display_user_balance()
+eloy.hacer_deposito(100).hacer_deposito(200).hacer_deposito(50).make_withdrawl(45).display_user_balance()
 
 teo.hacer_deposito(1000).hacer_deposito(1000).make_withdrawl(500).make_withdrawl(300).display_user_balance()
 
